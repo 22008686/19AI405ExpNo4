@@ -54,6 +54,7 @@ def aStarAlgo(start_node, stop_node):
     #distance of starting node from itself is zero
     g[start_node] = 0
 ```
+```
 #start_node is root node i.e it has no parent nodes
 #so start_node is set to its own parent node
 
@@ -148,7 +149,6 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
-```
 ```
 ## Sample Graph I:
 
