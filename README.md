@@ -120,7 +120,6 @@ def get_neighbors(v):
 def heuristic(n):
     return H_dist[n]
           
-#Describe your graph here
 '''Graph_nodes = {
     'A': [('B', 6), ('F', 3)],
     'B': [('A', 6), ('C', 3), ('D', 2)],
