@@ -89,8 +89,7 @@ while len(open_set) > 0:
     if n == None:
         print('Path does not exist!')
         return None
-        ```
-        ```
+        
 # if the current node is the stop_node
 # then we begin reconstructin the path from it to the start_node
 
@@ -109,7 +108,8 @@ while len(open_set) > 0:
     closed_set.add(n)
 print('Path does not exist!')
 return None
-
+```
+```
 
 
 #define fuction to return neighbor and its distance
@@ -148,6 +148,7 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
+```
 ```
 ## Sample Graph I:
 
