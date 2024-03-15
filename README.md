@@ -1,6 +1,6 @@
 ## ExpNo 4 : Implement A* search algorithm for a Graph
 
-## Name: Gedipudi Darshani
+## Name: M.Pavithra
 ## Register Number: 212222100032
 
 ## Aim:
