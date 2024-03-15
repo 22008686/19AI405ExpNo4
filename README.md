@@ -53,7 +53,7 @@ def aStarAlgo(start_node, stop_node):
     parents = {}         # parents contains an adjacency map of all nodes
     #distance of starting node from itself is zero
     g[start_node] = 0
-
+```
 #start_node is root node i.e it has no parent nodes
 #so start_node is set to its own parent node
 
@@ -89,6 +89,8 @@ while len(open_set) > 0:
     if n == None:
         print('Path does not exist!')
         return None
+        ```
+        ```
 # if the current node is the stop_node
 # then we begin reconstructin the path from it to the start_node
 
